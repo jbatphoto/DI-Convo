@@ -23,4 +23,4 @@ $(document).ready(function(){
             li[i].style.display = "none";
         }
     }
-}
+});
