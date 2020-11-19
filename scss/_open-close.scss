@@ -8,6 +8,10 @@
     .open, .closed {
         display: block;
         padding: 1rem 0;
+        .count {
+            font-size: 12px;
+            float: right;
+        }
         .fa {
             margin-right: 6px;
         }

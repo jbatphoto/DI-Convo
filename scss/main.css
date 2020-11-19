@@ -14,6 +14,9 @@
   .open-close .open, .open-close .closed {
     display: block;
     padding: 1rem 0; }
+    .open-close .open .count, .open-close .closed .count {
+      font-size: 12px;
+      float: right; }
     .open-close .open .fa, .open-close .closed .fa {
       margin-right: 6px; }
     .open-close .open a, .open-close .closed a {
@@ -46,7 +49,7 @@
     font-size: 12px;
     border-bottom: 1px solid #f7f7f7;
     list-style-type: none;
-    padding: 2rem 1rem; }
+    padding: 2rem; }
     .message-list .preview a {
       color: #000;
       text-decoration: none; }
