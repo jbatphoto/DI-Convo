@@ -47,6 +47,9 @@
     border-bottom: 1px solid #f7f7f7;
     list-style-type: none;
     padding: 2rem 1rem; }
+    .message-list .preview a {
+      color: #000;
+      text-decoration: none; }
     .message-list .preview .name {
       font-size: 14px;
       line-height: 22px;
