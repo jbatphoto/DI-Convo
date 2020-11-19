@@ -24,10 +24,12 @@
         font-size: 12px;
         border-bottom: 1px solid $light-gray;
         list-style-type: none;
-        padding: 2rem;
+        padding: 0 2rem;
+        position: relative;
         .fa {
             color: $blue;
-            float: left;
+            position: absolute;
+            left: 5px;
             font-size: 8px;
         }
         a {
