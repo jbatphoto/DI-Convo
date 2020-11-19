@@ -1,0 +1,82 @@
+.side-nav {
+  object-fit: contain; }
+  .side-nav img {
+    max-width: 70px;
+    width: 100%;
+    object-fit: contain; }
+
+.open-close {
+  margin-top: 4rem; }
+  .open-close h2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 900; }
+  .open-close .open, .open-close .closed {
+    display: block;
+    padding: 1rem 0; }
+    .open-close .open .fa, .open-close .closed .fa {
+      margin-right: 6px; }
+    .open-close .open a, .open-close .closed a {
+      color: #000;
+      font-size: 16px;
+      text-decoration: none; }
+      .open-close .open a:hover, .open-close .open a:active, .open-close .closed a:hover, .open-close .closed a:active {
+        color: #007BFF;
+        font-weight: 900; }
+
+.message-list {
+  background: #fff;
+  margin-top: 4rem;
+  overflow-y: scroll;
+  height: 100vh; }
+  .message-list .search {
+    padding: 1rem; }
+    .message-list .search .fa {
+      color: #2c2c2c; }
+    .message-list .search input {
+      border: 0;
+      width: 85%; }
+  .message-list .date {
+    display: block;
+    background: #ededed;
+    font-size: 16px;
+    width: 100%;
+    padding: 1rem; }
+  .message-list .preview {
+    font-size: 12px;
+    border-bottom: 1px solid #f7f7f7;
+    list-style-type: none;
+    padding: 2rem 1rem; }
+    .message-list .preview .name {
+      font-size: 14px;
+      line-height: 22px;
+      display: block;
+      font-weight: bold; }
+    .message-list .preview .time {
+      font-size: 9px;
+      float: right; }
+    .message-list .preview:hover {
+      background: rgba(0, 123, 255, 0.05); }
+
+.message {
+  background: #fff;
+  margin-top: 4rem; }
+
+html {
+  height: 100vh;
+  overflow: hidden; }
+
+body {
+  background: #f7f7f7;
+  margin: 0;
+  height: 100vh; }
+
+.container {
+  width: 100% !important;
+  max-width: 100%;
+  max-height: 100vh; }
+
+.column, .columns {
+  margin-left: 1%; }
+
+/*# sourceMappingURL=main.css.map */

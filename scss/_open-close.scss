@@ -1,0 +1,24 @@
+.open-close {
+    margin-top: 4rem;
+    h2 {
+        font-size: 20px;
+        color: $black;
+        font-weight: 900;
+    }
+    .open, .closed {
+        display: block;
+        padding: 1rem 0;
+        .fa {
+            margin-right: 6px;
+        }
+        a {
+            color: $black;
+            font-size: 16px;
+            text-decoration: none;
+            &:hover, &:active {
+                color: $blue;
+                font-weight: 900;
+            }
+        }
+    }
+}

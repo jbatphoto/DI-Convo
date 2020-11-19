@@ -1,0 +1,42 @@
+.message-list {
+    background: $white;
+    margin-top: 4rem;
+    overflow-y: scroll;
+    height: 100vh;
+    .search {
+        padding: 1rem;
+        .fa {
+            color: #2c2c2c;
+        }
+        input {
+            border: 0;
+            width: 85%;
+        }
+    }
+    .date {
+        display: block;
+        background: #ededed;
+        font-size: 16px;
+        width: 100%;
+        padding: 1rem;
+    }
+    .preview {
+        font-size: 12px;
+        border-bottom: 1px solid $light-gray;
+        list-style-type: none;
+        padding: 2rem 1rem;
+        .name {
+            font-size: 14px;
+            line-height: 22px;
+            display: block;
+            font-weight: bold;
+        }
+        .time {
+            font-size: 9px;
+            float: right;
+        }
+        &:hover {
+            background: rgba(0, 123, 255, 0.05);
+        }
+    }
+}
