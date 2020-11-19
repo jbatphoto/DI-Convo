@@ -49,8 +49,9 @@
     font-size: 12px;
     border-bottom: 1px solid #f7f7f7;
     list-style-type: none;
-    padding: 1.3rem 2rem;
-    position: relative; }
+    padding: 2rem;
+    position: relative;
+    margin-bottom: 0; }
     .message-list .preview .fa {
       color: #007BFF;
       position: absolute;
