@@ -52,7 +52,8 @@
     padding: 2rem; }
     .message-list .preview .fa {
       color: #007BFF;
-      float: left; }
+      float: left;
+      font-size: 8px; }
     .message-list .preview a {
       color: #000;
       text-decoration: none; }
