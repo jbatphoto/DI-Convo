@@ -10,6 +10,10 @@
   <script src="https://use.fontawesome.com/a59d382d79.js"></script>
   <link href="https://pagecdn.io/lib/skeleton/2.0.4/skeleton.css" rel="stylesheet" crossorigin="anonymous"  >
   <link rel="stylesheet" href="scss/main.css">
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
 
 </head>
 
@@ -22,34 +26,21 @@
         <!-- Open and close toggle -->
         <div class="two columns open-close">
             <h2>Messages</h2>
-            <span class="open"><a href="#"><i class="fa fa-comment" aria-hidden="true"></i> Open</a></span>
-            <span class="closed"><a href="#"><i class="fa fa-check" aria-hidden="true"></i> Closed</a></span>
+            <!-- Open Messages -->
+            <span class="open"><a id="open" href="#"><i class="fa fa-comment" aria-hidden="true"></i> Open</a></span>
+            
+            <span class="closed"><a id="closed" href="#"><i class="fa fa-check" aria-hidden="true"></i> Closed</a></span>
         </div>
         <div class="two columns message-list">
             <div class="search">
                 <i class="fa fa-search" aria-hidden="true"></i> <input type="text" placeholder="Search..">
             </div>
-            <div class="date">Today</div>
-            <ul>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-            </ul>
-            <div class="date">Yesterday</div>
-            <ul>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-                <li class="preview"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</li>
-            </ul>
+            <div id="result">Content here</div>
+            
         </div>
         <div class="seven columns message">
             This will be the indivual message
+            
         </div>
     </div>
   <script src="js/scripts.js"></script>
