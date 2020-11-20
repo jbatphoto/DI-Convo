@@ -15,5 +15,8 @@ $(document).ready(function(){
       }); 
       $("#pete").on("click", function(){
         $("#message-result").load("messages/pete.html");
-      });   
+      }); 
+      $("#weston").on("click", function(){
+        $("#message-result").load("messages/weston.html");
+      });  
 });
