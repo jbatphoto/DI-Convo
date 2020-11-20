@@ -1,11 +1,44 @@
 <div id="closed" class="tab">
     <div class="date">Today</div>
     <ul id="myUL">
-        <li class="preview"><a href="#"><span class="time">11:47 A.M.</span><span class="name">Jacob Henderson</span>This is a message that is a preview...</a></li>
-        <li class="preview"><a href="#"><span class="time">11:47 A.M.</span><span class="name">Matt Porter</span>This is a message that is a preview...</a></li>
-        <li class="preview"><a href="#"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</a></li>
-        <li class="preview"><a href="#"><span class="time">11:47 A.M.</span><span class="name">Nikki Issacson</span>This is a message that is a preview...</a></li>
+        <li class="preview"><a id="jacob" href="#"><span class="time">11:47 A.M.</span><span class="name">Jacob Henderson</span>This is a message that is a preview...</a></li>
+        <li class="preview"><a id="matt" href="#"><span class="time">11:47 A.M.</span><span class="name">Matt Porter</span>This is a message that is a preview...</a></li>
+        <li class="preview"><a id="chris" href="#"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</a></li>
+        <li class="preview"><a id="nikki" href="#"><span class="time">11:47 A.M.</span><span class="name">Nikki Issacson</span>This is a message that is a preview...</a></li>
     <div class="date">Yesterday</div>
-        <li class="preview"><a href="#"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</a></li>
+        <li class="preview"><a id="chris" href="#"><span class="time">11:47 A.M.</span><span class="name">Chris Worsley</span>This is a message that is a preview...</a></li>
     </ul>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function(){ 
+    $("#message-result").load("messages/pete.html");
+    $("#jacob").on("click", function(){
+        $("#message-result").load("messages/jacob.html");
+      }); 
+      $("#pete").on("click", function(){
+        $("#message-result").load("messages/pete.html");
+      }); 
+      $("#weston").on("click", function(){
+        $("#message-result").load("messages/weston.html");
+      });
+      $("#chris").on("click", function(){
+        $("#message-result").load("messages/chris.html");
+      }); 
+      $("#matt").on("click", function(){
+        $("#message-result").load("messages/matt.html");
+      }); 
+      $("#justin").on("click", function(){
+        $("#message-result").load("messages/justin.html");
+      });
+      $("#daniel").on("click", function(){
+        $("#message-result").load("messages/daniel.html");
+      });
+      $("#cole").on("click", function(){
+        $("#message-result").load("messages/cole.html");
+      });
+      $("#nikki").on("click", function(){
+        $("#message-result").load("messages/nikki.html");
+      });
+});
+</script>
