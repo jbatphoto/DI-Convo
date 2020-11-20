@@ -16,3 +16,17 @@
         <li class="preview"><a href="#"><span class="time">11:47 A.M.</span><span class="name">Matt Porter</span>This is a message that is a preview...</a></li>
     </ul>
 </div>
+<script type="text/javascript">
+    $(document).ready(function(){ 
+    $("#message-result").load("messages/pete.html");
+    $("#jacob").on("click", function(){
+        $("#message-result").load("messages/jacob.html");
+      }); 
+      $("#pete").on("click", function(){
+        $("#message-result").load("messages/pete.html");
+      }); 
+      $("#weston").on("click", function(){
+        $("#message-result").load("messages/weston.html");
+      });  
+});
+</script>
