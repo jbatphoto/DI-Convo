@@ -1,4 +1,11 @@
 .message {
     background: $white;
     margin-top: 4rem;
+    padding: 2rem 1rem;
+    .user {
+        border-bottom: 2px solid $light-gray;
+        font-size: 20px;
+        font-weight: 900;
+        padding: 1rem 0;
+    }
 }

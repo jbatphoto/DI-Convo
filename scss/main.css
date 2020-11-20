@@ -73,7 +73,13 @@
 
 .message {
   background: #fff;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+  padding: 2rem 1rem; }
+  .message .user {
+    border-bottom: 2px solid #f7f7f7;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 1rem 0; }
 
 html {
   height: 100vh;
