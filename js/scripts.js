@@ -9,6 +9,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){ 
+    $("#message-result").load("messages/pete.html");
     $("#jacob").on("click", function(){
         $("#message-result").load("messages/jacob.html");
       }); 
