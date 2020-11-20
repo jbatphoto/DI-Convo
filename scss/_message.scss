@@ -1,11 +1,10 @@
 .message {
     background: $white;
     margin-top: 4rem;
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
     .name {
         border-bottom: 2px solid $light-gray;
         font-size: 20px;
         font-weight: 900;
-        padding: 1rem 0;
     }
 }
