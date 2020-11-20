@@ -11,7 +11,7 @@ $(document).ready(function(){
 $(document).ready(function(){ 
     $("#message-result").load("messages/pete.html");
     $("#jacob").on("click", function(){
-        $("#message-result").load("messages/jacob.html");
+        $("#message-result").load("partials/jacob.html");
       }); 
       $("#pete").on("click", function(){
         $("#message-result").load("messages/pete.html");
