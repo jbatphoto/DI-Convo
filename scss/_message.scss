@@ -76,18 +76,18 @@
         width: 100%;
         border-top: 2px solid $light-gray;
         padding: 2rem 0;
+        .limit {
+            font-size: 10px;
+            font-weight: 100;
+            display: block;
+            float: right;
+        }
         textarea {
             width: 100%;
             border: 0;
             font-size: 11px;
             border-bottom: 1px solid $light-gray;
         }
-    }
-    .limit {
-        font-size: 10px;
-        font-weight: 100;
-        display: block;
-        float: right;
     }
     .send {
         background: $blue;
