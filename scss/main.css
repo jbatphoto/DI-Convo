@@ -103,6 +103,9 @@
       float: right;
       max-width: 35%;
       clear: both; }
+      .message .content .practice .meta .name {
+        color: #007BFF;
+        font-weight: bold; }
   .message .message-box {
     vertical-align: bottom;
     height: 10vh;

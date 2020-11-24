@@ -32,6 +32,12 @@
             float: right;
             max-width: 35%;
             clear: both;
+            .meta {
+                .name {
+                    color: $blue;
+                    font-weight: bold;
+                }
+            }
         }
     }
     .message-box {
