@@ -6,18 +6,15 @@
 
 
 html {
-    height: 100vh;
     overflow: hidden;
 }
 body {
     background: $light-gray;
     margin: 0;
-    height: 100vh;
 }
 .container {
     width: 100% !important;
     max-width: 100%;
-    max-height: 100vh;
 }
 .column, .columns {
     margin-left: 1%;
