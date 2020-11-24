@@ -95,23 +95,27 @@
       border-radius: 20px;
       float: left;
       max-width: 35%;
-      clear: both; }
+      clear: both;
+      margin-top: 1rem; }
     .message .content .practice {
       background: rgba(0, 123, 255, 0.1);
       padding: 2rem;
       border-radius: 20px;
       float: right;
       max-width: 35%;
-      clear: both; }
+      clear: both;
+      margin-top: 1rem; }
       .message .content .practice .meta {
         position: relative;
         width: 100%;
         text-align: right;
-        margin-bottom: 0.5rem; }
+        margin-bottom: 1rem;
+        color: #888; }
         .message .content .practice .meta .user-name {
           color: #007BFF;
           float: left;
-          font-weight: bold; }
+          font-weight: bold;
+          font-size: 14px; }
   .message .message-box {
     vertical-align: bottom;
     height: 10vh;
