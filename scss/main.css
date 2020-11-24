@@ -39,6 +39,9 @@
     .message-list .search input {
       border: 0;
       width: 85%; }
+    .message-list .search .fa-pencil-square {
+      color: #007BFF;
+      float: right; }
   .message-list .date {
     display: block;
     background: #ededed;
