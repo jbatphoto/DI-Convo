@@ -1,7 +1,7 @@
 <div class="name">
     Pete Browne <i class="fa fa-user-o" aria-hidden="true"></i> &nbsp; <i class="fa fa-check" aria-hidden="true"></i>
 </div>
-<div class="content" id="content">
+<div class="content" id="content" onload="scrollToBottom()">
     
 </div>
 <div class="message-box" id="message-box">
@@ -12,4 +12,11 @@
 <script type="text/javascript">
     $("#content").load("partials/content.html");
     $("#message-box").load("partials/message-box.html");
+</script>
+
+<script type="text/javascript">
+    function scrollToBottom(){
+    var element = document.getElementById("content");
+    element.scrollTop = element.scrollHeight;
+}
 </script>
