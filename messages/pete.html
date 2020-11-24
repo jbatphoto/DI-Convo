@@ -4,15 +4,12 @@
 <div class="content" id="content">
     
 </div>
-<div class="message-box">
-    <textarea placeholder="Your Message..."></textarea>
+<div class="message-box" id="message-box">
+    
 </div>
 
 
 <script type="text/javascript">
-    function updateScroll(){
-    var element = document.getElementById("content");
-    element.scrollTop = element.scrollHeight;
-}
-$("#content").load("partials/content.html");
+    $("#content").load("partials/content.html");
+    $("#message-box").load("partials/message-box.html");
 </script>
