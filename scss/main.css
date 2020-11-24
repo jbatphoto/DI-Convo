@@ -103,7 +103,7 @@
       float: right;
       max-width: 35%;
       clear: both; }
-      .message .content .practice .meta .name {
+      .message .content .practice .meta .user-name {
         color: #007BFF;
         font-weight: bold; }
   .message .message-box {
