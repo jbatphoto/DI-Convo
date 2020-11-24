@@ -1,6 +1,5 @@
 .message {
     background: $white;
-    margin: 4rem 0;
     padding: 2rem 1.5rem;
     height: 100vh;
     position: relative;
@@ -17,6 +16,7 @@
         height: 75vh;
         padding: 2rem 0;
         font-size: 12px;
+        overflow-y: scroll;
         .patient {
             background: #EDEDED;
             padding: 2rem;

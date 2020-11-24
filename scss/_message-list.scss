@@ -1,7 +1,7 @@
 .message-list {
     background: $white;
-    margin-top: 4rem;
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 100vh;
     .search {
         padding: 1rem;

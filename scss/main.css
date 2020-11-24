@@ -29,8 +29,8 @@
 
 .message-list {
   background: #fff;
-  margin-top: 4rem;
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100vh; }
   .message-list .search {
     padding: 1rem; }
@@ -73,7 +73,6 @@
 
 .message {
   background: #fff;
-  margin: 4rem 0;
   padding: 2rem 1.5rem;
   height: 100vh;
   position: relative; }
@@ -88,7 +87,8 @@
     width: 100%;
     height: 75vh;
     padding: 2rem 0;
-    font-size: 12px; }
+    font-size: 12px;
+    overflow-y: scroll; }
     .message .content .patient {
       background: #EDEDED;
       padding: 2rem;
