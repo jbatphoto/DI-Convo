@@ -78,7 +78,15 @@
         padding: 2rem 0;
         textarea {
             width: 100%;
+            border: 0;
+            font-size: 11px;
         }
+    }
+    .limit {
+        font-size: 10px;
+        font-weight: 100;
+        display: block;
+        float: right;
     }
     .send {
         background: $blue;
