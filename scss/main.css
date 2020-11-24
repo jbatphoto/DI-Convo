@@ -117,7 +117,9 @@
       .message .content .failed .status {
         position: absolute;
         bottom: -20px;
-        font-size: 9px; }
+        font-size: 9px;
+        float: right;
+        color: #D14747; }
     .message .content .meta {
       position: relative;
       width: 100%;
