@@ -80,4 +80,13 @@
             width: 100%;
         }
     }
+    .send {
+        background: $blue;
+        padding: 1rem 2rem;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
 }
