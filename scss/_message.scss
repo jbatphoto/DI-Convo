@@ -33,8 +33,13 @@
             max-width: 35%;
             clear: both;
             .meta {
+                position: relative;
+                width: 100%;
+                text-align: right;
+                margin-bottom: 0.5rem;
                 .user-name {
                     color: $blue;
+                    float: left;
                     font-weight: bold;
                 }
             }

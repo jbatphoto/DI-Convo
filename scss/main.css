@@ -103,9 +103,15 @@
       float: right;
       max-width: 35%;
       clear: both; }
-      .message .content .practice .meta .user-name {
-        color: #007BFF;
-        font-weight: bold; }
+      .message .content .practice .meta {
+        position: relative;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 0.5rem; }
+        .message .content .practice .meta .user-name {
+          color: #007BFF;
+          float: left;
+          font-weight: bold; }
   .message .message-box {
     vertical-align: bottom;
     height: 10vh;
