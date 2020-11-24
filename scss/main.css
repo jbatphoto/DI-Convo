@@ -38,10 +38,12 @@
       color: #2c2c2c; }
     .message-list .search input {
       border: 0;
-      width: 85%; }
+      width: 72%; }
     .message-list .search .fa-pencil-square {
       color: #007BFF;
-      float: right; }
+      float: right;
+      font-size: 25px;
+      margin-top: 1rem; }
   .message-list .date {
     display: block;
     background: #ededed;

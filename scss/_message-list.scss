@@ -10,11 +10,13 @@
         }
         input {
             border: 0;
-            width: 85%;
+            width: 72%;
         }
         .fa-pencil-square {
             color: $blue;
             float: right;
+            font-size: 25px;
+            margin-top: 1rem;
         }
     }
     .date {

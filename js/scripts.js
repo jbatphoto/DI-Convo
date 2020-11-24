@@ -10,5 +10,8 @@ $(document).ready(function(){
       $('a').each(function() {
         $(this).data('href', $(this).attr('href')).removeAttr('href');
     }); 
+    $("#newmessage").on("click", function(){
+      $("#message-result").load("messages/new.html");
+    });
 });
 
