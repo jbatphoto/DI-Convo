@@ -2,38 +2,7 @@
     Pete Browne
 </div>
 <div class="content" id="content">
-    <div class="patient">
-        <p class="meta">May 5th, 10:20 AM</p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
-    <div class="practice">
-        <p class="meta"><span class="user-name">Susan Smith</span> May 5th, 10:20 AM</p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
-    <div class="patient">
-        <p class="meta">May 5th, 10:20 AM</p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
-    <div class="patient">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
-    <div class="practice">
-        <p class="meta"><span class="user-name">Susan Smith</span> May 5th, 10:20 AM</p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
-    <div class="patient">
-        <p class="meta">May 5th, 10:20 AM</p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
-    <div class="patient">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
-    <div class="practice">
-        <p class="meta"><span class="user-name">Susan Smith</span> May 5th, 10:20 AM</p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum diam at ullamcorper hendrerit.
-    </div>
+    
 </div>
 <div class="message-box">
     <textarea placeholder="Your Message..."></textarea>
@@ -45,4 +14,5 @@
     var element = document.getElementById("content");
     element.scrollTop = element.scrollHeight;
 }
+$("#content").load("partials/content.html");
 </script>
