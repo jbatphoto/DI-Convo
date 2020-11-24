@@ -80,6 +80,7 @@
             width: 100%;
             border: 0;
             font-size: 11px;
+            border-bottom: 1px solid $light-gray;
         }
     }
     .limit {
@@ -96,6 +97,7 @@
         border-radius: 10px;
         letter-spacing: 1px;
         display: inline-block;
+        font-size: 12px;
         &:hover {
             opacity: 0.6;
         }
