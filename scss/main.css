@@ -112,7 +112,12 @@
       float: right;
       max-width: 35%;
       clear: both;
-      margin-top: 1rem; }
+      margin-top: 1rem;
+      position: relative; }
+      .message .content .failed .status {
+        position: absolute;
+        bottom: -20px;
+        font-size: 9px; }
     .message .content .meta {
       position: relative;
       width: 100%;

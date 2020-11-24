@@ -34,7 +34,6 @@
             max-width: 35%;
             clear: both;
             margin-top: 1rem;
-            
         }
         .failed {
             background: rgba(209, 71, 71, 0.10);
@@ -44,7 +43,12 @@
             max-width: 35%;
             clear: both;
             margin-top: 1rem;
-            
+            position: relative;
+            .status {
+                position: absolute;
+                bottom: -20px;
+                font-size: 9px;
+            }
         }
         .meta {
             position: relative;
