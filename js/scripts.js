@@ -6,6 +6,9 @@ $(document).ready(function(){
       $("#closed").on("click", function(){
         $("#result").load("partials/closed.html");
       }); 
-      $('#content').scrollTop($('#content')[0].scrollHeight); 
+      $('#content').scrollTop($('#content')[0].scrollHeight);
+      $('a').each(function() {
+        $(this).data('href', $(this).attr('href')).removeAttr('href');
+    }); 
 });
 
