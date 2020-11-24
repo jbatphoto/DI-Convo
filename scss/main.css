@@ -105,6 +105,14 @@
       max-width: 35%;
       clear: both;
       margin-top: 1rem; }
+    .message .content .failed {
+      background: rgba(209, 71, 71, 0.1);
+      padding: 2rem;
+      border-radius: 20px;
+      float: right;
+      max-width: 35%;
+      clear: both;
+      margin-top: 1rem; }
     .message .content .meta {
       position: relative;
       width: 100%;
