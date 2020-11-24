@@ -105,17 +105,17 @@
       max-width: 35%;
       clear: both;
       margin-top: 1rem; }
-      .message .content .practice .meta {
-        position: relative;
-        width: 100%;
-        text-align: right;
-        margin-bottom: 1rem;
-        color: #888; }
-        .message .content .practice .meta .user-name {
-          color: #007BFF;
-          float: left;
-          font-weight: bold;
-          font-size: 14px; }
+    .message .content .meta {
+      position: relative;
+      width: 100%;
+      text-align: right;
+      margin-bottom: 1rem;
+      color: #888; }
+      .message .content .meta .user-name {
+        color: #007BFF;
+        float: left;
+        font-weight: bold;
+        font-size: 14px; }
   .message .message-box {
     vertical-align: bottom;
     height: 10vh;
