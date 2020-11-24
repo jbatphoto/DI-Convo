@@ -45,11 +45,12 @@
             margin-top: 1rem;
             position: relative;
             .status {
-                position: absolute;
-                bottom: -20px;
                 font-size: 9px;
-                float: right;
+                /* float: right; */
                 color: #D14747;
+                display: block;
+                text-align: right;
+                margin-bottom: 0;
             }
         }
         .meta {

@@ -115,11 +115,12 @@
       margin-top: 1rem;
       position: relative; }
       .message .content .failed .status {
-        position: absolute;
-        bottom: -20px;
         font-size: 9px;
-        float: right;
-        color: #D14747; }
+        /* float: right; */
+        color: #D14747;
+        display: block;
+        text-align: right;
+        margin-bottom: 0; }
     .message .content .meta {
       position: relative;
       width: 100%;
