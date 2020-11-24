@@ -5,6 +5,7 @@ $(document).ready(function(){
       });
       $("#closed").on("click", function(){
         $("#result").load("partials/closed.html");
-      });  
+      }); 
+      $('#content').scrollTop($('#content')[0].scrollHeight); 
 });
 
