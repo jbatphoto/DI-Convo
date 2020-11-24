@@ -80,6 +80,9 @@
     border-bottom: 2px solid #f7f7f7;
     font-size: 20px;
     font-weight: 900; }
+  .message .message-box {
+    position: fixed;
+    vertical-align: bottom; }
 
 html {
   height: 100vh;
