@@ -13,6 +13,9 @@
         .fa {
             float: right;
             margin-left: 2rem;
+            &:hover {
+                color: $blue;
+            }
         }
     }
     .content {
