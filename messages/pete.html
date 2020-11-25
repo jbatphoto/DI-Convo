@@ -1,5 +1,5 @@
 <div class="name">
-    Pete Browne <i class="fa fa-user-o" aria-hidden="true"></i> &nbsp; <i class="fa fa-check" aria-hidden="true"></i>
+    Pete Browne <i class="fa fa-user-o menu-link" aria-hidden="true"></i> &nbsp; <i class="fa fa-check" aria-hidden="true"></i>
 </div>
 <div class="content" id="content" onload="scrollToBottom()">
     
@@ -8,10 +8,16 @@
     
 </div>
 
+<div id="menu">
+    <img src="../images/card.png" />
+</div>
+
 
 <script type="text/javascript">
     $("#content").load("partials/content.html");
     $("#message-box").load("partials/message-box.html");
+    $('.menu-link').bigSlide();
+
 </script>
 
 <script type="text/javascript">
@@ -19,4 +25,37 @@
     var element = document.getElementById("contentofmessage");
     element.scrollTop = element.scrollHeight;
 }
+var settings = $.extend({
+
+// menu selector
+'menu': ('#menu'), 
+
+// trigger selector
+'push': ('.push'), 
+
+
+// shrink the main container div instead of only pushing it
+'shrink': ('.shrink'),
+
+// The side of the navigation menu (either 'right' or 'left')
+'side': 'left', 
+
+// the width of your menu
+'menuWidth': '15.625em', 
+
+// animation speed
+'speed': '300',
+
+'state': 'closed',
+
+// CSS class added to the menu button when it is open
+'activeBtn': 'active',
+
+// allow users to toggle the menu closed with any click
+'easyClose': false,
+
+// save open/close state
+'saveState': false,
+
+}, options);
 </script>
