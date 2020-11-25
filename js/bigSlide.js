@@ -132,7 +132,8 @@
           'position': 'fixed',
           'top': '0',
           'bottom': '0',
-          'height': '100%'
+          'height': '100%',
+          'overflow-y': 'scroll'
         };
 
         // css for the sliding animation
