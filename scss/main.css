@@ -173,6 +173,9 @@
     float: right; }
     .message .send:hover {
       opacity: 0.6; }
+  .message #loadNames {
+    max-height: 500px;
+    overflow-y: scroll; }
   .message .patients {
     position: absolute;
     top: 100%; }
