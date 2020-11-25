@@ -1,5 +1,6 @@
-<div class="name">
+<div class="name" id="name">
     <input type="text" id="newMessageSearch" placeholder="Type patients name or phone number">
+    <div id="loadNames"></div>
 </div>
 
 <div class="content">&nbsp;</div>
@@ -10,6 +11,9 @@
 
 <script type="text/javascript">
     $("#message-box").load("partials/message-box.html");
+    $("#name").on("click", function(){
+        $("#loadNames").load("partials/patients.html");
+      });
 </script>
 
 <script>
@@ -17,7 +21,7 @@
         var input, filter, ul, li, a, i, txtValue;
         input = document.getElementById("newMessageSearch");
         filter = input.value.toUpperCase();
-        ul = document.getElementById("myUL");
+        ul = document.getElementById("patients");
         li = ul.getElementsByTagName("li");
         for (i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("a")[0];
