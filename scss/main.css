@@ -114,7 +114,10 @@
       .message .name #drop a {
         color: black;
         font-size: 13px;
-        display: block; }
+        display: block;
+        text-decoration: none;
+        border-bottom: 1px solid #f7f7f7;
+        padding: 1rem 0; }
         .message .name #drop a .fa {
           float: left;
           margin-right: 2rem; }

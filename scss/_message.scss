@@ -40,6 +40,9 @@
                 color: black;
                 font-size: 13px;
                 display: block;
+                text-decoration: none;
+                border-bottom: 1px solid $light-gray;
+                padding: 1rem 0;
                 .fa {
                     float: left;
                     margin-right: 2rem;
