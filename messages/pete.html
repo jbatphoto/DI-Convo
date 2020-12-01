@@ -1,5 +1,11 @@
 <div class="name">
-    Pete Browne <i class="fa fa-ellipsis-v" aria-hidden="true"></i> &nbsp; <i class="fa fa-user-o menu-link" aria-hidden="true"></i> &nbsp; <i class="fa fa-check" aria-hidden="true"></i>
+    Pete Browne <a href="#" id="trigger"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+    <div id="drop">
+        
+        <a href="#"><i class="fa fa-user-o menu-link" aria-hidden="true"></i> View Profile Card</a>
+        <a href="#"><i class="fa fa-check" aria-hidden="true"></i> Close Conversation</a>
+    
+    </div>
 </div>
 <div class="content" id="content" onload="scrollToBottom()">
     
@@ -17,6 +23,24 @@
     $("#content").load("partials/content.html");
     $("#message-box").load("partials/message-box.html");
     $('.menu-link').bigSlide();
+
+    $(document).ready( function(){
+
+$('#trigger').click( function(event){
+    
+    event.stopPropagation();
+    
+    $('#drop').toggle();
+    
+});
+
+$(document).click( function(){
+
+    $('#drop').hide();
+
+});
+
+});
 
 </script>
 
