@@ -43,9 +43,13 @@
                 text-decoration: none;
                 border-bottom: 1px solid $light-gray;
                 padding: 1rem 0;
+                text-align: center;
                 .fa {
-                    float: left;
                     margin-right: 2rem;
+                    font-size: 17px;
+                }
+                &:hover {
+                    color: $blue;
                 }
             }
         }
