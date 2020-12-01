@@ -39,7 +39,7 @@
     .message-list .search input {
       border: 0;
       width: 72%; }
-    .message-list .search .fa-pencil-square {
+    .message-list .search .fa-plus-square {
       color: #007BFF;
       float: right;
       font-size: 25px;
