@@ -22,6 +22,17 @@
             border: 0;
             opacity: 0.5;
         }
+        #drop {
+            display:none; /* Hide it first of all */
+            background:#F8F8F8;
+            border:1px solid #CCC;
+            box-shadow:0 1px 3px rgba(0,0,0,0.15);
+            position:absolute;
+            top:46px;
+            left:20px;
+            width:200px;
+            border-radius:3px;
+        }
     }
     .content {
         width: 100%;
