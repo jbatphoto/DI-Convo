@@ -98,6 +98,16 @@
                 text-align: right;
                 margin-bottom: 0;
             }
+            .try-again {
+                background: white;
+                border: 1px solid $light-gray;
+                border-radius: 10px;
+                font-size: 12px;
+                color: black;
+                display: block;
+                float: right;
+                margin-top: 1rem;
+            }
         }
         .meta {
             position: relative;
