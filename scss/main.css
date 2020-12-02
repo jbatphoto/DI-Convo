@@ -228,12 +228,11 @@
     width: 80px;
     height: 80px; }
   .message .lds-ellipsis div {
-    position: absolute;
     top: 33px;
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #fff;
+    background: #f7f7f7;
     animation-timing-function: cubic-bezier(0, 1, 1, 0); }
   .message .lds-ellipsis div:nth-child(1) {
     left: 8px;
